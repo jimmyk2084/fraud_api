@@ -18,4 +18,14 @@ In the future, this model will have to be trained for a few more sports games, w
 suspicious box pops up, update the MongoDB, parse the data into the inputs to the model, and feed it through. 
 Then partially fit it to train the model in real time.
 
+SETUP:
+In order to run this code, it needs to be run on python3 Flask.
+
+1. Setup python3 flask to be run on virtual env: http://flask.pocoo.org/docs/0.12/installation/
+2. Install anaconda: https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04
+3. run requirements: pip install -r requirements.txt
+4. if problem with PIL is show, try installing manually: pip install pillow
+5. run 'source tutorial-env/bin/activate & python fraud_API_endpoint.py' from command line.
+
+
 ![Alt text](URM.jpg?raw=true "URM of prediction flow")
